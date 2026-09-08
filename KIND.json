@@ -1,0 +1,11 @@
+{
+ "kind": "adversary",
+ "engine": "https://github.com/shaelsrv/ModelMeetsReality",
+ "engine_commit": "56a33c1",
+ "tier": "proven",
+ "one_line": "attacks a common belief and names what would refute the attack",
+ "premise_shape": "<Common belief> is wrong because <mechanism>. It would survive if <specific observation>.",
+ "falsifier": "the belief under attack survives the specific test named",
+ "predict_frame": "State the belief under attack and the specific observation that would vindicate it. An adversary that cannot be refuted by the thing it attacks is not doing its job.",
+ "assess_frame": "Did the attacked belief survive the test this model named?"
+}
